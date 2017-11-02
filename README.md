@@ -30,3 +30,6 @@ I'll be using hourly rental data spanning two years (January 2011 - December 201
 
 ## Background
 I chose this Kaggle competition since I've been following the rollout of various bikeshare programs around the country and the Ford GoBike system recently launched in the Bay Area. A bike station is located on my block and I'm curious how much demand there currently is and will be for this new mode of local transportation. Ford GoBike will be making their trip data public soon (https://www.fordgobike.com/system-data), so in the meantime this is a very similar dataset on which I'll be able to test out different approaches.
+
+## Results
+All of my code and findings are in the "Bikeshare Demand - EDA and Modeling" Jupyter notebook. After three late submissions (competition ended in 2015), I achieved a RMSLE of 0.45434 using a slightly tuned Random Forest and a handful other tweaks to the training data, but I was not placed on the public leaderboard. However, this score corresponds to 883 out of 3252 total competitors, i.e. within the top 28 percent. The mean value RMSLE benchmark was 1.58455, so I'm quite happy with my result given the short duration of this project. I will continue to explore further ways to improve my score as outlined in the final section of the notebook.
